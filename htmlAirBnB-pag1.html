@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header class="bg-black text-white px-5 py-3">
+      <div class="container-fluid">
+        <!-- Navbar principale -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="Logo Airbnb" style="width: 100px; margin-left: 50px;">
+          </a>
+    
+          <!-- Bottone per il menu a tendina sui dispositivi piccoli -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Contenuto della navbar -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Menu Items al centro -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white text-decoration-none" href="#">Places to stay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-decoration-none" href="#">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-decoration-none" href="#">Online Experiences</a>
+              </li>
+            </ul>
+    
+            <!-- Sezione destra -->
+            <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0" style="margin-right: 50px;">
+              <!-- Link "Become a host" -->
+              <a href="#" class="text-white text-decoration-none" style="margin-right: 15px;">Become a host</a>
+              
+              <!-- Icona del globo -->
+              <a href="#" class="text-white text-decoration-none" style="margin-right: 15px;font-size: 1rem;"><i class="bi bi-globe"></i></a>
+              
+              <!-- Pulsante con icona profilo e menu -->
+              <div class="d-flex align-items-center bg-white rounded-pill px-2 py-1">
+                <!-- Tre righe orizzontali (menu hamburger) -->
+                <span class="d-flex flex-column me-2">
+                  <span class="bg-dark" style="height: 2px; width: 14px; margin-bottom: 3px;"></span>
+                  <span class="bg-dark" style="height: 2px; width: 14px; margin-bottom: 3px;"></span>
+                  <span class="bg-dark" style="height: 2px; width: 14px;"></span>
+                </span>
+                <!-- Icona del profilo -->
+                <a href="#" class="text-dark text-decoration-none">
+                  <img src="assets/img/propic.png" alt="Foto Profilo" class="rounded-circle" style="width: 35px; height: 35px; object-fit: cover;">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+
+
+    <main>
+      <div class="container-fluid py-3" style="position: absolute; top: 70px; left: 0; right: 0; z-index: 10;">
+        <div class="container p-2 bg-white rounded-pill d-flex flex-wrap justify-content-between align-items-center" style="max-width: 880px; width: 100%; height: 70px;">
+            <!-- Sezione sinistra (Location e Where you going?) -->
+            <div class="me-3 mb-2 flex-grow-1" style="min-width: 150px;">
+                <div class="input-wrapper col-12 col-md-4">
+                    <label for="location" class="form-label">Location</label>
+                    <input type="text" id="location" class="form-control-plaintext" placeholder="Where are you going?">
+                </div>
+            </div>
+    
+            <div class="d-flex gap-2 flex-wrap justify-content-center mb-2">
+              <div class="input-wrapper-checkin col-12 col-md-4">
+                  <label for="checkin" class="form-label">Check-in</label>
+                  <input type="date" id="checkin" class="form-control-plaintext">
+              </div>
+  
+              <div class="input-wrapper-checkout col-12 col-md-4">
+                  <label for="checkout" class="form-label">Check-out</label>
+                  <input type="date" id="checkout" class="form-control-plaintext">
+              </div>
+    
+                <div class="input-wrapper-guest" >
+                    <label for="guests" class="form-label">Guests</label>
+                    <input type="number" id="guests" class="form-control-plaintext" placeholder="Add guests" style="margin-top: -10px;">
+                </div>
+            </div>
+    
+            <!-- Sezione destra (Search Icon) -->
+            <div class="d-flex align-items-center">
+                <i class="bi bi-search" style="font-size: 17px; color: white; background-color: rgb(230, 9, 94); border-radius: 50%; padding: 13px; margin-top: -10px; width: 50px; text-align: center; height: 50px; margin-left: 100px; margin-right: 5px;"></i>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+      
+
+    <!-- Hero Section -->
+<div class="container-fluid bg-black text-white py-5" 
+style="background-image: url('assets/img/home.jpg'); background-size: cover; background-position: center; height: auto; margin-top: -110px; margin-left: -20px; width: auto;">
+<div class="row" style="height: 100%;">
+<div class="col-12 col-lg-6 d-flex flex-column justify-content-center ps-lg-5 text-center text-lg-start" 
+    style="margin-top: 320px; min-height: 460px;">
+    <h1 class="display-3 fw-bold custom-text" style="font-size: 7rem; font-family: 'Poppins', sans-serif; width: 5px; line-height: 0.9;">Go <br> Near</h1>
+    <button class="btn btn-light btn-md mt-2 custom-text" style="text-align: left; width: 180px; font-size: 15px; font-family: 'Poppins', sans-serif; padding-right: 10px;">Explore nearby stays</button>
+</div>
+</div>
+</div>
+
+      
+      
+      
+    
+    <!-- Nearby Locations -->
+<div class="container py-5">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/isola.jpg" class="rounded" alt="Genova" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title" style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Genova</h5>
+          <p class="card-text">15 mins drive</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/montagna.jpg" class="rounded" alt="Inverness" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Inverness</h5>
+          <p class="card-text">2 hrs flight</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/nuvole.jpg" class="rounded" alt="Edinburgh" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Edinburgh</h5>
+          <p class="card-text">1.5 hrs flight</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/italia.jpg" class="rounded" alt="Rapallo" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Rapallo</h5>
+          <p class="card-text">2 hrs drive</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/nuvole.jpg" class="rounded" alt="Milan" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Milan</h5>
+          <p class="card-text">1.5 hrs drive</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/montagna.jpg" class="rounded" alt="Montecarlo" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Montecarlo</h5>
+          <p class="card-text">2 hrs drive</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/italia.jpg" class="rounded" alt="Kirkwall" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Kirkwall</h5>
+          <p class="card-text">1 hrs drive</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 d-flex flex-row align-items-center">
+        <img src="assets/img/italia.jpg" class="rounded" alt="Nordkapp" style="max-width: 90px; height: 90px;">
+        <div class="card-body">
+          <h5 class="card-title"style="margin-bottom: 0px; font-size: 15px; font-weight: bold;">Nordkapp</h5>
+          <p class="card-text">10 hrs flight</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+      
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+      
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
