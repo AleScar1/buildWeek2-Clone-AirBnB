@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: 'Nunito',sans-serif;
+}
+
+header nav div div p {
+  font-size: 1rem;
+  color: #696969;
+}
+
+header nav div div i {
+  color: #696969;
+}
+
+main div div div p {
+  font-size: 1rem;
+}
+
+.images-div {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+main div div div p span {
+  font-weight: bold;
+}
+
+div div div h5,
+div section div h6 {
+  font-weight: bold;
+}
+
+main div .container.mt-2 {
+  padding: 0;
+}
+
+p,
+li {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.bi-house-door,
+.bi-stars,
+.bi-geo-alt,
+.bi-calendar3,
+.bi-book {
+  font-size: 1rem;
+}
+
+#addDates {
+  box-shadow: 0 0 20px rgb(164, 155, 155);
+  border-radius: 1rem;
+  padding: 1rem 1.3rem;
+}
+
+.li-title {
+  font-weight: bold;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0;
+}
+
+main div section:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  font-size: 1rem;
+  border-radius: 0;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+#cancel {
+  border: 1px solid black;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+main div section:first-of-type div:nth-of-type(2) div div:nth-of-type(2) .row .col-6,
+main div section:first-of-type div:nth-of-type(2) div div:nth-of-type(2) .col-12 {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
