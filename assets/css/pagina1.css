@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+
+#navbarContent .navbar-nav .nav-item:nth-child(1) .nav-link,
+#navbarContent .navbar-nav .nav-item:nth-child(2) .nav-link,
+#navbarContent .navbar-nav .nav-item:nth-child(3) .nav-link 
+{
+padding: 20px;
+margin-top: -30px;
+}
+
+#navbarContent{
+ margin-left: 140px;
+}
+ 
+#guests {
+    width: 100px;
+}
+
+.input-wrapper {
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.input-wrapper label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.input-wrapper-checkin label{
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.input-wrapper-checkout label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.input-wrapper-guest label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#checkout {
+    margin-top: -10px;
+    color: grey;
+    margin-right: 50px;
+}
+
+#checkin {
+    margin-top: -10px;
+    color: grey;
+    margin-right: -10px;
+
+}
+
+#location {
+    width: 155px;
+    margin-top: -10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.custom-text {
+    transform: translateY(-80px); /* Sposta verso l'alto */
+    text-align: left; /* Allinea il testo a sinistra */
+    margin-left: 30px;
+}
